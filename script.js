@@ -10,10 +10,10 @@ const menu = document.createElement('ul');
 menu.setAttribute('class', 'nav');
 const li1 = document.createElement('li');
 li1.setAttribute('class', 'NobelPrizehomepage');
-li1.innerHTML = '<a target="_blank" href="https://www.nobelprize.org/">Home</a>';
+li1.innerHTML = '<a href="https://www.nobelprize.org/" target="_blank">Home</a>';
 const li2 = document.createElement('li');
 li2.setAttribute('class', 'about');
-li2.innerHTML = '<a target="_blank" href="https://en.wikipedia.org/wiki/Nobel_Prize">About</a>';
+li2.innerHTML = '<a href="https://en.wikipedia.org/wiki/Nobel_Prize" target="_blank">About</a>';
 
 title.appendChild(menu);
 menu.appendChild(li1);
